@@ -53,6 +53,8 @@ body{
     width: calc(26% - 20px);
     cursor: pointer;
     transition: all 0.3s ease;
+    height: 350px;  /* Make the height of the card fixed */
+    word-wrap: break-word /* Automatic break the long word to smaller */
 }
 .card:hover{
     background: #dc143c;
